@@ -9,6 +9,11 @@ docker run --name mongodb -p 27017:27017 -d mongo
 docker ps
 ```
 
+To restart mongodb container, you can run:
+```
+docker start mongodb
+```
+
 ## Install the aplication and run it
 ```
 git clone https://github.com/diegoqueres/node-api.git
